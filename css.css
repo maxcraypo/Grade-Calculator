@@ -1,0 +1,14 @@
+body{
+    position: relative;
+    text-align: center;
+    background-color: lightblue;
+
+}
+
+#current-grade, .tables{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    position: relative;
+
+}

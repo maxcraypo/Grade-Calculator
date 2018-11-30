@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Grade Calculator</title>
+    <script src="script.js"> </script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="css.css">
+
+
+</head>
+<body onload="start()">
+<h1> Grade Calculator</h1>
+<div id="current-grade">
+    <table id="grades" class="w3-table" > </table>
+    <input type="text" placeholder="category name" id="label">
+
+    <button id="rowbutton" onclick= "addRow()"  class=" class="w3-button w3-black""> add another section </button>
+   <br>
+    <br>
+    <button class="w3-button w3-black" onclick= grade()> calculate your grade </button>
+
+    <div id="finalgrade"> </div>
+
+    <br>
+
+
+    <div> Final Grade</div>
+<br>
+    <div> What grade do you want  </div>
+    <input type="textbox" id="gradewanted" placeholder="what grade do you want">
+    <br>
+    <br>
+    <div> Final Weight </div>
+    <input type="texbox" id="finalwgt" placeholder="final weight ">
+    <br>
+    <button  class="w3-button w3-black" onclick="finalGrade()"> calculate what you need on you final </button>
+    <br>
+    <div id="need"> </div>
+
+
+
+</div>
+
+</body>
+</html>
